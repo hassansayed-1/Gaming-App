@@ -70,20 +70,3 @@ Gaming-App/
 └── package.json
 ```
 
-## React + Vite Setup
-
-This project uses:
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react) with Babel for Fast Refresh
-- Alternatively, [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) can be used with SWC for Fast Refresh
-
-## Contributing
-
-Feel free to fork this project and submit pull requests for any improvements!
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Author
-
-[Hassan Sayed](https://github.com/hassansayed-1)
