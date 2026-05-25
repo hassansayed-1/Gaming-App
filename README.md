@@ -1,8 +1,89 @@
-# React + Vite
+# Gaming App 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern gaming application built with React and Vite.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is an interactive gaming application showcasing modern web development practices. The app provides a smooth user experience with fast performance and responsive design.
+
+## Tech Stack
+
+- **Frontend Framework:** React
+- **Build Tool:** Vite
+- **Languages:** 
+  - JavaScript (98%)
+  - HTML (1.6%)
+  - CSS (0.4%)
+
+## Features
+
+- ⚡ Lightning-fast development with Vite
+- 🔄 Hot Module Replacement (HMR) for instant updates
+- ⚙️ ESLint configured for code quality
+- 📱 Responsive and interactive UI
+
+## Setup & Installation
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/hassansayed-1/Gaming-App.git
+cd Gaming-App
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start the development server
+```bash
+npm run dev
+```
+
+The app will be available at `http://localhost:5173`
+
+## Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview the production build
+- `npm run lint` - Run ESLint to check code quality
+
+## Project Structure
+
+```
+Gaming-App/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── public/
+├── index.html
+├── vite.config.js
+└── package.json
+```
+
+## React + Vite Setup
+
+This project uses:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react) with Babel for Fast Refresh
+- Alternatively, [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) can be used with SWC for Fast Refresh
+
+## Contributing
+
+Feel free to fork this project and submit pull requests for any improvements!
+
+## License
+
+This project is open source and available under the MIT License.
+
+## Author
+
+[Hassan Sayed](https://github.com/hassansayed-1)
