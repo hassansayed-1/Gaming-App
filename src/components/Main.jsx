@@ -9,7 +9,7 @@ export default function Main({ selectedGenre, setSelectedGenre }) {
     const navigate = useNavigate();
 
     useEffect(() => {
-        const key = 'ebf40c2a9fe846538caccea083fafbbf';
+        const key = 'ebf40c2a9fe846538caccea083fafbbf';   // i know it's an error but i was playing
         axios.get(`https://api.rawg.io/api/genres?key=${key}`)
             .then(res => setGenres(res.data.results))
             .catch(() => setGenres([]));
